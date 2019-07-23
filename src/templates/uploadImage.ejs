@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>File uploading</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <form  
+      action="/"
+      method="POST"
+      enctype="multipart/form-data"
+  >
+      <div class="inputGroup">
+          <label for="file">Wybierz plik</label>
+          <input type="file" name="file" id="file">
+      </div>
+
+      <button type="submit">Prześlij</button>
+  </form>
+</body>
+
+</html>
